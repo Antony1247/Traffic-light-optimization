@@ -19,11 +19,11 @@ This repository contains a traffic simulation system that models vehicular behav
 
 ### Visual Assets
 - **Road and Intersection Models:**
- - `CleanShot 2024-12-02 at 14.34.53@2x.png`
- - `mod_int.png`: Intersection visualization.
+![Road Simulation](images/mod_int.png)
 
 - **Vehicle Images:**
- - `car2.jpg`: Represents a vehicle used in the simulation.
+![Road Simulation](images/car2.jpg)
+![Road Simulation](images/car1.png)
 
 - **Traffic Signal Images:**
  - `green.png`: Green traffic light.
@@ -31,7 +31,7 @@ This repository contains a traffic simulation system that models vehicular behav
  - `yellow.png`: Yellow traffic light.
 
 ### Data Files
-- `counter.txt`: Tracks vehicle counts, formatted as lines of numeric entries:
+- `counter.txt`: Tracks vehicle counts in each road, formatted as lines of numeric entries:
  - Example:
  ```
     4
@@ -44,19 +44,9 @@ This repository contains a traffic simulation system that models vehicular behav
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url> `
+   git clone https://github.com/Antony1247/Traffic-light-optimization.git
 
 1.  Ensure you have Python 3.7 or above installed.
-
-2.  Install required packages:
-
-    bash
-
-    Copy code
-
-    `pip install -r requirements.txt`
-
-    *(Include a `requirements.txt` file listing any dependencies if applicable)*
 
 * * * * *
 
@@ -80,12 +70,15 @@ Example Visuals
 
 ### Road and Vehicles
 
-![Road Simulation](CleanShot\ 2024-12-02\ at\ 14.34.53@2x.png)
+![Road Simulation](images/1.png)
 
 ### Traffic Lights
 
 #### Green Light
+![Road Simulation](images/signals/green.png)
 
 #### Red Light
+![Road Simulation](images/signals/red.png)
 
 #### Yellow Light
+![Road Simulation](images/signals/yellow.png)
